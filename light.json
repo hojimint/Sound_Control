@@ -1,0 +1,228 @@
+{
+  "id": "d2ebbfa4-2fe7-436a-b8f8-dc46673d0183",
+  "name": "Order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "order"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "order_say",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "order",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$order",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "$order 를 실행합니다"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "전원 ",
+          "userDefined": false
+        },
+        {
+          "text": "꺼",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "3a8b065a-5591-4a1f-b2ce-272820105fc8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "전원 ",
+          "userDefined": false
+        },
+        {
+          "text": "켜",
+          "userDefined": false,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "0db74657-bc8e-475a-a524-dcebbfc3eb3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "전원 ",
+          "userDefined": false
+        },
+        {
+          "text": "오프",
+          "userDefined": false,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "e0324bd4-cad6-472b-b8fa-bcb26ef70dd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "전원 ",
+          "userDefined": false
+        },
+        {
+          "text": "온",
+          "userDefined": false,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "2dc3f36b-4b06-4474-811e-01fa316b6a71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "오프",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "675ded56-552f-405b-88c5-ef16766adb43",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "온",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "904dd25d-c81b-4dc2-b7b1-c5469c97e47a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "꺼",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "62ce1eae-52ee-45a5-876b-68b5bf0e3488",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "켜",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "b8d18178-749e-4fe5-8687-59eb0590b21c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "꺼",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "줘",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1023bd7-2e6b-4a43-aec9-d39342fc9034",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "켜",
+          "userDefined": true,
+          "alias": "order",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "줘",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d0c1d78-2f6e-47b9-a3d6-f5ba23900315",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
