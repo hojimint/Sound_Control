@@ -9,7 +9,7 @@ const {Card, Suggestion} = require('dialogflow-fulfillment');
  
 admin.initializeApp({
   credential: admin.credential.applicationDefault(),
-  databaseURL:'ws://otto-mwsc-default-rtdb.firebaseio.com/'
+  databaseURL:'ws://'
 });
 
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
